@@ -72,7 +72,7 @@ const Main = () => {
                     </Card>
                 })}
             </div>
-            {metrics.metricsSelected.length > 0 && <Graph metrics={metrics.metricsSelected}></Graph>}
+            {metrics.metricsSelected && <Graph metrics={metrics.metricsSelected}></Graph>}
         </div>
     )
 }
